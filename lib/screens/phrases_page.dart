@@ -13,7 +13,7 @@ class PhrasesPage extends StatelessWidget {
       enName: 'Are you coming',
     ),
     ItemModel(
-      sound: 'assets/sounds/phrases/dont_forget_to_subscribe.wav',
+      sound: 'sounds/numbers/number_two_sound.mp3',
       jpName: 'Ni',
       enName: 'two',
     ),
