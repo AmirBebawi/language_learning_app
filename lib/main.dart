@@ -1,17 +1,20 @@
+
 import 'package:flutter/material.dart';
+import 'package:language_learning_app/screens/home_page.dart';
 
 void main() {
-  runApp(const LanguageLearningApp());
+  runApp(const TokuApp());
 }
 
-class LanguageLearningApp extends StatelessWidget {
-  const LanguageLearningApp({super.key});
+class TokuApp extends StatelessWidget {
+  const TokuApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
+      home:HomePage() ,
     );
   }
 }
+
