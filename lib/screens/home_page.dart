@@ -38,6 +38,7 @@ class HomePage extends StatelessWidget {
             text: 'FamilyMembers',
             color: const Color(0xff558B37),
           ),
+
           Category(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
